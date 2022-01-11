@@ -1,8 +1,4 @@
-/*          EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives )
-            EX8) Write a selector to target the second post author
-            EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
-            EX10) Write a selector to target the footer
-        */
+
 
 /* EX1) Write a selector to target the h1 in jumbotron */
 
@@ -18,7 +14,7 @@
 
 /* EX3) Write a selector to target the "continue reading..." inside the jumbotron*/
 .jumbotron a{
-    background-color: brown !important;
+    background-color: brown;
 }
 
 /*          EX4) Write a selector to target the first blog-post */
@@ -36,4 +32,29 @@
 .container .row .blog-main div:last-of-type {
     background-color: grey;
     border: 2px solid yellow;
+}
+
+/* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives )*/
+
+.container .row .blog-sidebar div:nth-child(2){
+    background-color: indigo;
+}
+
+/*  EX8) Write a selector to target the second post author */
+.blog-post-meta a{
+    color: grey;
+    font-size: 30px;
+}
+
+/* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
+p:last-of-type a{
+    border: grey;
+    background-color: khaki;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* EX10) Write a selector to target the footer*/
+.blog-footer{
+    background-color: lavenderblush;
 }
