@@ -29,7 +29,7 @@
 }
 
 /* EX6) Write a selector to target the last blog post*/
-.container .row .blog-main div:last-of-type {
+.container .blog-main div:last-of-type {
     background-color: grey;
     border: 2px solid yellow;
 }
